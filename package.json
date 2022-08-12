@@ -1,0 +1,27 @@
+{
+  "name": "rest_api_2022",
+  "version": "1.0.0",
+  "description": "REST API Testing Framework",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha './**/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuliashi/Rest_Api_2022.git"
+  },
+  "author": "Yulia Shibanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuliashi/Rest_Api_2022/issues"
+  },
+  "homepage": "https://github.com/yuliashi/Rest_Api_2022#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "request-promise": "^4.2.6"
+  }
+}
